@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Blend.unity
+    guid: cddfa97c8b6445b4dbf5ac773c5519cc
   m_configObjects: {}
