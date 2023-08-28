@@ -336,6 +336,71 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1001 &1253520465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4971719492261401201, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb084013be67abc41a198a2d0ee59787, type: 2}
+    - target: {fileID: 6284892157661232025, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_Name
+      value: LiquidBottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.307
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017511771889977738, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663816771955182755, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dd0f00c413777a14583fc1cc1eab5190, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eaac26e258a4fd842a47c120651dcf26, type: 3}
 --- !u!1001 &1331505595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -346,6 +411,10 @@ PrefabInstance:
     - target: {fileID: 58048846751585986, guid: bfa4f4488ce7af444bdc9f049bcfe392, type: 3}
       propertyPath: m_Name
       value: Zombunny
+      objectReference: {fileID: 0}
+    - target: {fileID: 58048846751585986, guid: bfa4f4488ce7af444bdc9f049bcfe392, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 830328859287063672, guid: bfa4f4488ce7af444bdc9f049bcfe392, type: 3}
       propertyPath: m_RootOrder
