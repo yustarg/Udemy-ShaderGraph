@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TestMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 5950140f2e57c874b8c79142d22f15b4, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: b9f6b7cd1cb923e478d9bc74aaba7ab0, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -101,6 +101,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c4b776763cc64e13a4653c9e4a7d6aab_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cf97ea0bfb76458dbc2133b1914c6014_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture:
         m_Texture: {fileID: 2800000, guid: be8515cb1dcbe83429d9fca4cd3082e7, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -128,6 +136,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Height: 2.8
     - _Level: 0.18
     - _Metallic: 0
     - _Mode: 0
@@ -136,7 +145,7 @@ Material:
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 1
+    - _Scale: 24
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 2
@@ -145,8 +154,11 @@ Material:
     - _ZWrite: 1
     - _scale: 1
     m_Colors:
+    - _BottomColor: {r: 1, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Tiling: {r: 1, g: 0.2, b: 0, a: 0}
+    - _TopColor: {r: 1, g: 0.7076589, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1089617706020497771
 MonoBehaviour:
